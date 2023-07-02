@@ -66,6 +66,11 @@ public class TestArbolOptimo {
 
         // Assert
 
+        TElementoAB<String> raiz = unArbol.buscar("raton");
+        assert (unArbol.obtenerNivel("raton") == 0);
+        assert (raiz.getHijoIzq().getEtiqueta().equals("gato"));
+        assert (raiz.getHijoDer().getEtiqueta().equals("zorro"));
+        assert (raiz.getHijoIzq().getHijoDer().getEtiqueta().equals("perro"));
     }
 
 }
