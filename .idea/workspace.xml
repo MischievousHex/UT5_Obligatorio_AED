@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd4bc362-7508-4614-bb1f-0fb1788cbc8e" name="Changes" comment="" />
+    <list default="true" id="dd4bc362-7508-4614-bb1f-0fb1788cbc8e" name="Changes" comment="patch para empezar las tests">
+      <change afterPath="$PROJECT_DIR$/src/TestArbolOptimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TCalculadorMatricesOptimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TCalculadorMatricesOptimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestArbolBinario.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,14 +33,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/santi/OneDrive - Universidad Católica del Uruguay/Archivos/Algoritmos Y Estructuras de Datos/UT5_Obligatorio_AED/input",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\santi\OneDrive - Universidad Católica del Uruguay\Archivos\Algoritmos Y Estructuras de Datos\UT5_Obligatorio_AED\input" />
+      <recent name="C:\Users\santi\OneDrive - Universidad Católica del Uruguay\Archivos\Algoritmos Y Estructuras de Datos\UT5_Obligatorio_AED" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestArbolOptimo">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UT5_Obligatorio_AED" />
@@ -33,6 +65,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestArbolOptimo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UT5_Obligatorio_AED" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArbolOptimo" />
+      <option name="METHOD_NAME" value="TestPalabras" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArbolOptimo.TestPalabras" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UT5_Obligatorio_AED" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArbolOptimo" />
+      <option name="METHOD_NAME" value="TestPalabras" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArbolOptimo.TestPalabras2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UT5_Obligatorio_AED" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArbolOptimo" />
+      <option name="METHOD_NAME" value="TestPalabras2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestArbolOptimo" />
+      <item itemvalue="JUnit.TestArbolOptimo.TestPalabras" />
+      <item itemvalue="JUnit.TestArbolOptimo.TestPalabras2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestArbolOptimo" />
+        <item itemvalue="JUnit.TestArbolOptimo.TestPalabras" />
+        <item itemvalue="JUnit.TestArbolOptimo.TestPalabras2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,8 +117,82 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688311996690</updated>
-      <workItem from="1688311998525" duration="2000" />
+      <workItem from="1688311998525" duration="4209000" />
     </task>
+    <task id="LOCAL-00001" summary="funciona todo parece">
+      <option name="closed" value="true" />
+      <created>1688312283655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688312283655</updated>
+    </task>
+    <task id="LOCAL-00002" summary="patch para empezar las tests">
+      <option name="closed" value="true" />
+      <created>1688312350377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688312350377</updated>
+    </task>
+    <task id="LOCAL-00003" summary="patch para empezar las tests">
+      <option name="closed" value="true" />
+      <created>1688312365099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688312365099</updated>
+    </task>
+    <task id="LOCAL-00004" summary="patch para empezar las tests">
+      <option name="closed" value="true" />
+      <created>1688312419536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688312419536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="funciona todo parece" />
+    <MESSAGE value="patch para empezar las tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="patch para empezar las tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestArbolOptimo.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestArbolOptimo.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestArbolOptimo.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="TElementoAB" memberName="hijoIzq" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="unArbol.raiz.hijoIzq.hijoDer.hijoDer.hijoIzq.hijoIzq.hijoDer.hijoIzq" />
+        <watch expression="calculadorMatricesOptimo.C[0][4]" />
+        <watch expression="((TCalculadorMatricesOptimo)this).W[4][4]" custom="TCalculadorMatricesOptimo" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

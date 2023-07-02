@@ -23,7 +23,7 @@ public class TCalculadorMatricesOptimo<T> implements ICalculadorMatricesOptimo
         for(int m = 0; m <= cantidadElementos; m++){ // m= 0, 1, 2, 3, 4
             for(int i = 0; i <= (cantidadElementos - m); i++){   // i = 0:4, 0:3, 0:2, 0:1, 0
                 int j = i + m;                                  // j = 0:4, 1:4, 2:4, 3:4, 4
-                if(i == j)      // j == 0 ya está calculado
+                if(i == j)      // ya están calculados
                     continue;
                 // Calculo de W
                 W[i][j] = W[i][j-1] + frecuenciaExito[j] + frecuenciaNoExito[j];
